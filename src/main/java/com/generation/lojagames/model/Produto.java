@@ -28,7 +28,6 @@ public class Produto {
 	private String nome;
 	
 	@Column(precision = 7, scale = 2)
-	@NotBlank(message = "O atributo preco é obrigatório")
 	private BigDecimal preco;
 	
 	@ManyToOne
