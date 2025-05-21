@@ -27,6 +27,10 @@ public class Produto {
 	@Size(min = 2, max = 100, message = "O atributo nome deve ter no mínimo 2 e no máximo 100 caracteres")
 	private String nome;
 	
+	@Column(length = 500)
+	@Size(min = 10, max = 500, message = "O atributo capa deve ter no mínimo 10 e no máximo 500 caracteres")
+	private String capa;
+	
 	@Column(precision = 7, scale = 2)
 	private BigDecimal preco;
 	
@@ -40,6 +44,14 @@ public class Produto {
 
 	public void setId(Long id) {
 		this.id = id;
+	}
+
+	public String getCapa() {
+		return capa;
+	}
+
+	public void setCapa(String capa) {
+		this.capa = capa;
 	}
 
 	public String getNome() {
