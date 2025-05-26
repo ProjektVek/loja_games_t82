@@ -1,4 +1,4 @@
-package com.generation.lojagames;
+package com.generation.lojagames.service;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

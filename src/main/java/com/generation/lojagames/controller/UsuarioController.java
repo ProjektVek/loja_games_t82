@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.generation.lojagames.UsuarioService;
 import com.generation.lojagames.model.Usuario;
 import com.generation.lojagames.model.UsuarioLogin;
 import com.generation.lojagames.repository.UsuarioRepository;
+import com.generation.lojagames.service.UsuarioService;
 
 import jakarta.validation.Valid;
 
